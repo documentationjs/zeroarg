@@ -1,5 +1,7 @@
 # zeroarg
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/documentationjs/zeroarg.svg?token=55af1e3efed1a31fb840e68bdd5b57cc816f9d7629bc2a7eeca5cff3414a7373&ts=1493917193158)](https://greenkeeper.io/)
+
 disappearing argument parser
 
 This is admittedly a little :microscope: mad science. The gist is that zeroarg
