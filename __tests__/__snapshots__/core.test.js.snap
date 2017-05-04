@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`core 1`] = `
+Object {
+  "command": "run [a] [b]",
+  "epilogue": "
+Add two
+",
+  "options": Object {},
+  "positionalArgumentNames": Array [
+    "a",
+    "b",
+  ],
+}
+`;
+
+exports[`fail with option in middle 1`] = `[Error: Options must be specified last]`;
+
+exports[`non-nullable types 1`] = `
+Object {
+  "command": "run <a> <b>",
+  "epilogue": "
+Add two
+",
+  "options": Object {},
+  "positionalArgumentNames": Array [
+    "a",
+    "b",
+  ],
+}
+`;
+
+exports[`options 1`] = `
+Object {
+  "command": "run <a> <b>",
+  "epilogue": "
+Add two
+",
+  "options": Object {
+    "how": Object {
+      "describe": "...",
+      "type": "string",
+    },
+  },
+  "positionalArgumentNames": Array [
+    "a",
+    "b",
+  ],
+}
+`;
+
+exports[`options with choices 1`] = `
+Object {
+  "command": "run <a> <b>",
+  "epilogue": "
+Add two
+",
+  "options": Object {
+    "how": Object {
+      "choices": Array [
+        "add",
+        "divide",
+        "multiply",
+      ],
+      "describe": "...",
+      "type": "string",
+    },
+  },
+  "positionalArgumentNames": Array [
+    "a",
+    "b",
+  ],
+}
+`;
+
+exports[`string types 1`] = `
+Object {
+  "command": "run [a] [b]",
+  "epilogue": "
+Add two
+",
+  "options": Object {},
+  "positionalArgumentNames": Array [
+    "a",
+    "b",
+  ],
+}
+`;
+
+exports[`variadic in middle 1`] = `[Error: A variadic positional argument must be the last positional argument]`;

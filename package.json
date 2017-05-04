@@ -1,0 +1,39 @@
+{
+  "name": "zeroarg",
+  "version": "1.0.0",
+  "description": "zero-code argument parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "docs": "documentation readme -s API",
+    "version": "standard-version"
+  },
+  "keywords": [
+    "zero",
+    "code",
+    "argument",
+    "parser"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "ansimd": "^0.2.1",
+    "documentation": "^4.0.0-rc.1",
+    "remark": "^7.0.0",
+    "yargs": "^7.1.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "jest": "^19.0.2",
+    "prettier": "^1.2.2",
+    "standard-version": "^4.0.0"
+  },
+  "jest": {
+    "automock": false
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

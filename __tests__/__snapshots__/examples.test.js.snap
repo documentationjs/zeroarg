@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add --help 1`] = `
+"Commands:
+  run [numbers..]
+
+Options:
+  --help  Show help                                                    [boolean]
+
+
+Add numbers together
+
+
+"
+`;
+
+exports[`add run 1`] = `
+"3
+"
+`;
+
+exports[`hello --help 1`] = `
+"Hello, John
+"
+`;
+
+exports[`hello --name 1`] = `
+"Hello, Bill
+"
+`;
+
+exports[`hello default 1`] = `
+"Hello, John
+"
+`;
+
+exports[`options --help 1`] = `
+"Commands:
+  run [numbers]
+
+Options:
+  --help  Show help                                                    [boolean]
+  -a      ...                                                           [string]
+  -b      ...                                                           [number]
+  -c      ...      [string] [choices: \\"wiffles\\", \\"waffles\\"] [default: \\"wiffles\\"]
+
+
+Add numbers together
+
+
+"
+`;
+
+exports[`options bad option 1`] = `
+"/Users/tmcw/src/zeroarg/examples/options.js run [numbers]
+
+Options:
+  --help  Show help                                                    [boolean]
+  -a      ...                                                           [string]
+  -b      ...                                                           [number]
+  -c      ...      [string] [choices: \\"wiffles\\", \\"waffles\\"] [default: \\"wiffles\\"]
+
+Invalid values:
+  Argument: c, Given: \\"unknown\\", Choices: \\"wiffles\\", \\"waffles\\"
+"
+`;
+
+exports[`options good options 1`] = `
+"1 '1' 2 'waffles'
+"
+`;
+
+exports[`options run 1`] = `
+"1 undefined 2 'wiffles'
+"
+`;
