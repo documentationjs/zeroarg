@@ -1,7 +1,7 @@
 # zeroarg
 
 <p align="center">
-  <img src="./.github/logo.jpg" width="500" />
+  <img src="./.github/logo.jpg" width="250" height="250" />
 </p>
 
 <p align="center">
