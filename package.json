@@ -20,7 +20,7 @@
     "ansimd": "^0.2.1",
     "documentation": "^4.0.0-rc.1",
     "remark": "^7.0.0",
-    "yargs": "^7.1.0"
+    "yargs": "^8.0.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0",
