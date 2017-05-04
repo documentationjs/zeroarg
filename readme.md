@@ -1,6 +1,12 @@
 # zeroarg
 
-disappearing argument parser
+<p align="center">
+  <img src="./.github/logo.png" width="500" />
+</p>
+
+<p align="center">
+  disappearing argument parser
+</p>
 
 This is admittedly a little :microscope: mad science. The gist is that zeroarg
 is an argument parser, with [yargs](https://github.com/yargs/yargs) at its
